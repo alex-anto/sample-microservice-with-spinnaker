@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: 107995894928.dkr.ecr.us-west-2.amazonaws.com/sample-microservice
-  tag: latest
+  repository: nginx
+  tag: stable
   pullPolicy: Always
 
 service:
