@@ -12,6 +12,9 @@ image:
 nameOverride: "alex"
 fullnameOverride: ""
 
+imagePullSecrets:
+- name: default-secret
+
 service:
   type: ClusterIP
   port: 80
