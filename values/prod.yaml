@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 
 image:
   repository: jed.ocir.io/axssefozft8h/network-multitool
