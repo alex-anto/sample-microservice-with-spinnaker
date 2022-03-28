@@ -9,7 +9,7 @@ image:
   tag: stable
   pullPolicy: IfNotPresent
 
-nameOverride: ""
+nameOverride: "alex"
 fullnameOverride: ""
 
 service:
