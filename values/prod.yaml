@@ -1,12 +1,12 @@
-replicaCount: 4
+replicaCount: 1
 
 image:
-  repository: nginx
+  repository: jed.ocir.io/axssefozft8h/network-multitool
   tag: latest
   pullPolicy: Always
 
 service:
   type: ClusterIP
   port: 8080
-nameOverride: "sample-prod"
+nameOverride: "prod"
 fullnameOverride: ""
